@@ -29,3 +29,12 @@ Generally, InceptionV3 is 48 layers deep. In this project those 48 layers are us
 ![image](https://user-images.githubusercontent.com/102232692/159826794-01f25bdd-c9b0-457c-bd47-0c1381f4b462.png)
 
 ![image](https://user-images.githubusercontent.com/102232692/159826899-a60faab8-015f-48ce-931f-eccfca532a45.png)
+
+### 3. DenseNet201: 
+Generally Densenet201 model is 201 layers deep. In this project those 201 layers are used for feature extraction and in the fully connected layer 1 hidden layer and an output layer has been kept. The Densenet201 model is trained by making the feature extraction layers as untrainable
+
+![image](https://user-images.githubusercontent.com/102232692/159827514-270cb2e8-b0ac-466a-9c04-e2e41ea159c4.png)
+
+![image](https://user-images.githubusercontent.com/102232692/159827884-41c0e09e-f240-44b6-8811-bf0061c6e226.png)
+
+
