@@ -14,3 +14,18 @@ LIME is an algorithm that can explain the predictions of any classifier or regre
 #### 6. Highlights the superpixel with top coefficients
 ![image](https://user-images.githubusercontent.com/102225400/159691724-dd3d0345-27a5-4d84-bb01-53f177627663.png)
 ![image](https://user-images.githubusercontent.com/102225400/159691745-1516bb9e-609c-44b1-bb8b-3b2221f41066.png)
+
+## Architectures Used
+In this project different CNN Architectures like DelNet, Inception, Nasanet, Mobilenet, VGG16 are used to evaluate the proposed model. The architectures of each cnn model are shown below: 
+### 1. Proposed CNN Architecture: 
+In the proposed cnn architecture a total of 8 layers for Feature extraction, 1 hidden layer, 1 output layer with Sigmoid activation function has been used. 
+
+![image](https://user-images.githubusercontent.com/102232692/159826027-b07906bf-5467-415d-af2e-3f0a3c75962f.png)
+
+The model ended up with a training accuracy of 92%. 
+### 2. Inception Architecture: 
+Generally, InceptionV3 is 48 layers deep. In this project those 48 layers are used for feature extraction and in the fully connected layer 1 hidden layer and an output layer has been kept. The InceptionV3 model is trained by making the feature extraction layers as untrainable. The architecture of the inception V3 model is as shown below. 
+
+![image](https://user-images.githubusercontent.com/102232692/159826794-01f25bdd-c9b0-457c-bd47-0c1381f4b462.png)
+
+![image](https://user-images.githubusercontent.com/102232692/159826899-a60faab8-015f-48ce-931f-eccfca532a45.png)
