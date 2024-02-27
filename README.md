@@ -1,4 +1,4 @@
-## What it is about ?
+## Real time Covid Xray diagnostics
 This is a covid xray diagnostic model proposed using convolution neural networks which can identify the x-ray as a covid affected or a normal xray.  
 
 ## Explainable AI
